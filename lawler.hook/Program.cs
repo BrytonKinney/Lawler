@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿namespace lawler.hook;
+
+internal class Program
+{
+    private static async Task<int> Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+        return 0;
+    }
+}
